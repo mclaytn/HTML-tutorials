@@ -1,0 +1,37 @@
+/* Menu Styles */
+.menu-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+.menu-item a {
+    text-decoration: none;
+    color: white;
+}
+.menu-item a:hover {
+    background-color: tomato;
+    padding: 0.5rem;
+}   
+/* General Styles */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 3rem;
+    padding: 0;
+    background-color: black;
+    color:antiquewhite;
+    display: flex;
+}
+h1 {
+    color: white;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 5rem 0 10rem;
+}
+p {
+    color: white;
+}
